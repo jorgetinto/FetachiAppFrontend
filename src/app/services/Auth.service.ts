@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
-  baseUrl = environment.apiUrl + 'Login/';
+  baseUrl = environment.apiUrl + 'Auth/';
   jwtHelper = new JwtHelperService();
   decodedToken: any;
   public auth2: any;

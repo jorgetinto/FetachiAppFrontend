@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './pages/Nopagefound/Nopagefound.component';
 import { AuthModule } from './auth/auth.module';
 import { PagesModule } from './pages/pages.module';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NopagefoundComponent,
+    PerfilComponent,
   ],
   imports: [
     BrowserModule,
