@@ -34,7 +34,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
 @NgModule({
   declarations: [
     PagesComponent,
-    DashboardComponent
+    DashboardComponent,
   ],
   imports: [
     CommonModule,
@@ -55,8 +55,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
     AppBreadcrumbModule,
     AppFooterModule,
     AppHeaderModule,
-    AppSidebarModule,
-
+    AppSidebarModule
   ],
 })
 
